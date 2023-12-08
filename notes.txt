@@ -1,0 +1,84 @@
+Udemy course (leriosted@gmail.com): Python Django - The Practical Guide by Maximilian Schwarzmuller
+
+Django
+
+- Python web dev framework.
+- Framework not a library, because there is clear guidance.
+- Literature structure.
+- Built for Python 3
+- Batteries included meaning built-in solutions exist without requirements for other packages etc
+- Still customisable.
+- Not a small framework, can be used for enterprise level applications.
+
+Pre requirements
+
+- Python basics (no prior Django)
+- Web basics (how framework works, not specific)
+
+Course Contents
+
+- Foundation
+- Advanced
+- Real-world applications 
+
+    Foundation 
+
+        Setup & Understanding Django Projects
+        URLs, Routes, & Views
+        Templates & Static Files
+        Data, Models, & Relationships
+
+    Advanced (Beyond the basics)
+        Working with forms
+        Class based Views
+        File uploads
+        Sessions
+
+    Many small examples
+    A real project (Building a blog)
+    Frontend + Admin
+    Deployment (Real deployment)
+
+Setup in VSCode
+
+    - Venv
+    - Python extension
+    - autopep8 extension
+
+Create a new project in Django 
+
+django-admin startproject mypage 
+
+File Structure in Django Projects
+
+ProjectName Folder
+    __init__ (makes the folder importable)
+    asgi.py (used for deployment)
+    settings.py (add features, and adjust behaviours)
+    urls.py (used to add more pages to the web application)
+    wsgi.py (used for deployment)
+
+Setup a development server (to preview and test)
+
+python manage.py runserver 8080 (specifying port is optional)
+
+mypage (project)
+    challenges (app or module)
+
+google
+    maps
+    images 
+    search 
+
+amazon
+    shop
+    prime
+    music
+
+Online shop
+    Products
+    Cart 
+    Admin Area 
+
+
+
