@@ -178,6 +178,10 @@ code itself. You can simply add one more item to the dictionary.
 
 This is a key consideration. Making sure that the app is scalable.
 
+However, there is an issue with the scalability of the example above. The url: "/challenges/" has 
+been hard coded into the script. This creates an issue if the url is changed for some reason at a 
+later time.
+
 
 
 
