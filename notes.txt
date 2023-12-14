@@ -93,10 +93,27 @@ Views
     Run business logic
     Prepare a response
 
-TO MAIN TYPES OF ACTIONS:
+TO MAIN TYPES OF VIEWS:
 
     Functions
     Classes
+
+URL and View Cycle
+
+USER --> Request  --> Server 
+     <-- Response <--   ^
+                        |
+                        v
+                        Database (Optional)
+
+Note to import a function you use syntax such as:
+
+from django.http import HttpResponse
+
+Then to instantuate the function (run the function as an instance) you use the following syntax in the script:
+
+HttpResponse()
+
 
 
 
