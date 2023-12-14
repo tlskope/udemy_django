@@ -80,5 +80,25 @@ Online shop
     Cart 
     Admin Area 
 
+URLs
+    Pathways / Routes of where links go to 
+    Trigger certain actions 
+    Triggers requests
+
+Views
+    Views are the actions that the URLs trigger 
+    They are made of Python code that call on HTML and HTTP methods
+    Handles a request
+    Load data 
+    Run business logic
+    Prepare a response
+
+TO MAIN TYPES OF ACTIONS:
+
+    Functions
+    Classes
+
+
+
 
 
