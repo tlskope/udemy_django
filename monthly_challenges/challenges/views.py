@@ -26,7 +26,7 @@ def index(request_):
     for month in months:
         capitalized_month = month.capitalize()
         month_path = reverse("month-challenge", args=[month])
-        list_items += f"<li><a href=\"{month_path}\">{capitalized_month}</a><</li>"
+        list_items += f"<li><a href=\"{month_path}\">{capitalized_month}</a></li>"
 
     # "<li><a href="...">January</a></li><li><a href="...">February</a></li>..."
     
