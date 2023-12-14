@@ -182,9 +182,19 @@ However, there is an issue with the scalability of the example above. The url: "
 been hard coded into the script. This creates an issue if the url is changed for some reason at a 
 later time.
 
+<< PROCESS OF HOW TO CREATE A NEW PAGE >>
 
+For this example we are creating the index page which has a list of all of the other pages. 
 
+1. Create a URL in the urls.py file in the challenges app. 
 
+To do this we add to the list of urlpatterns:
+
+urlpatterns = [
+    path(""),
+]
+
+2. Create another function in the views that will be called when the URL request is actioned.
 
 
 
