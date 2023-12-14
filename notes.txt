@@ -172,6 +172,13 @@ urlpatterns = [
     path("<str:month>", views.monthly_challenge),
 ]
 
+Important to note that with the way that the views have been setup with the multiple functions,
+if any more months need to be added to the dictionary - it does not affect any of the function 
+code itself. You can simply add one more item to the dictionary. 
+
+This is a key consideration. Making sure that the app is scalable.
+
+
 
 
 
