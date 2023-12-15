@@ -196,7 +196,7 @@ urlpatterns = [
 
 2. Create another function in the views that will be called when the URL request is actioned.
 
-
+>>> URLs and Views Concluded <<<
 
 
 
